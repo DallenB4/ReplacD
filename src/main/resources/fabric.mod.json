@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "replacd",
+  "version": "${version}",
+  "name": "Replac'D",
+  "description": "",
+  "authors": [
+    "Glue_Gunner4"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/replacd/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "glue_gunner4.replacd.Replacd"
+    ],
+    "client": [
+
+    ],
+    "server": [
+
+    ]
+  },
+  "accessWidener": "replacd.accesswidener",
+  "mixins": [
+    "replacd.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "minecraft": ">=1.16 <=1.19.3"
+  }
+}

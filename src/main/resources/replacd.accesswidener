@@ -1,0 +1,7 @@
+accessWidener   v1  named
+#Messages
+mutable field net/minecraft/network/message/MessageBody content Ljava/lang/String;
+accessible field net/minecraft/network/message/MessageBody content Ljava/lang/String;
+#Commands
+mutable field net/minecraft/network/packet/c2s/play/CommandExecutionC2SPacket command Ljava/lang/String;
+accessible field net/minecraft/network/packet/c2s/play/CommandExecutionC2SPacket command Ljava/lang/String;
